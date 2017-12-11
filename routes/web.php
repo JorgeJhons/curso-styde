@@ -17,6 +17,9 @@ Route::get('/usuarios/nuevo', function(){
 });
 
 Route::get('/perfil/{nombre}/{lastname?}', function($nombre, $lastname=null){
+
+	$name=ucfirst($name);
+	
 	if($lastname){
 		return "Bienvenido {$nombre} {$lastname}";
 	}else{
