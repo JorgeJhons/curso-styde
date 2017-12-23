@@ -21,6 +21,6 @@ class UsersModuleTest extends TestCase
     function detalles_de_usuarios(){
     	$this->get('/usuarios/5')
     		 ->assertStatus(200)
-    		 ->assertSee('Mostrando detalles del usuario: 5');
+    		 ->assertSee('Mostrando detalles del usuario: {$id}');
     }
 }
