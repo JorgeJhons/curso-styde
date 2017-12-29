@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 class usercontroller extends Controller
 {
     public function index(){
-    	return 'usuarios';
+    	return view('users.php');
     }
 
     public function show($id){
