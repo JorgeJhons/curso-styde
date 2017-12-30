@@ -15,7 +15,8 @@ class usercontroller extends Controller
     		'Bill',
     	];
     	return view('users',[
-    		'users' => $users
+    		'users' => $users,
+    		'title' => 'LISTADO DE USUARIOS.'
     	]);
     }
 
