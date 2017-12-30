@@ -8,7 +8,7 @@ class usercontroller extends Controller
 {
     public function index(){
     	$users=[
-    		'james',
+    		'James',
     		'Ellie',
     		'Tees',
     		'Tommy',
