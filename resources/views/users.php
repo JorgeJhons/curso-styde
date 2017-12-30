@@ -11,6 +11,11 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
 </head>
 <body>
-
+	<h1>USUARIOS</h1>
+	<ul>
+		<?php foreach ($users as $user): ?>
+			<li> <?php echo $user ?> </li>
+		<?php endforeach; ?>
+	</ul>
 </body>
 </html>
