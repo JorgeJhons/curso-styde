@@ -11,11 +11,11 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
 </head>
 <body>
-	<h1><?php echo e($title) ?></h1>
+	<h1>{{$title}}</h1>
 	<ul>
-		<?php foreach ($users as $user): ?>
-			<li> <?php echo e($user) ?> </li>
-		<?php endforeach; ?>
+	  @foreach ($users as $user)
+			<li> {{$user}}</li>
+	  @endforeach
 	</ul>
 </body>
 </html>
