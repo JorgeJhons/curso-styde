@@ -7,13 +7,20 @@ use Illuminate\Http\Request;
 class usercontroller extends Controller
 {
     public function index(){
-    	$users=[
-    		'James',
-    		'Ellie',
-    		'Tees',
-    		'Tommy',
-    		'Bill',
-    	];
+
+    	//Comprobar si el arreglo esta vacio.
+
+    	if (request()->has('empty')) {
+    		$users=[];
+    	}else{
+	    	$users=[
+	    		'James',
+	    		'Ellie',
+	    		'Tees',
+	    		'Tommy',
+	    		'Bill',
+	    	];
+    	}
     	return view('users',[
     		'users' => $users,
     		'title' => 'LISTADO DE USUARIOS.'
