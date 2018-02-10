@@ -1,0 +1,155 @@
+[33mcommit c0cae6bf10b21dc70c6eed149e0433a3b82c5f10[m
+Author: Jorge Fernandez <jfernandezcolli@gmail.com>
+Date:   Sat Feb 10 13:32:51 2018 -0600
+
+    Se eliminan las tablas para corregir errores presentados el dia 10 de febrero.
+
+[33mcommit ed05bff3faafc5f486ca6a66808e08726002f9e1[m
+Author: Jorge Fernandez <jfernandezcolli@gmail.com>
+Date:   Sat Feb 10 13:31:23 2018 -0600
+
+    Se agrega el codigo para impedir que se agreguen profesiones no existentes en la tabla de profesiones.
+
+[33mcommit a9a9185c6273227a30031857b0726f5b4125b314[m
+Author: Jorge Fernandez <jfernandezcolli@gmail.com>
+Date:   Thu Jan 18 09:15:18 2018 -0600
+
+    Se agrega la columna de profesion ID en la tabla de usuarios.
+
+[33mcommit ce426c5fd56554c9540487b5ae021bd0385df489[m
+Author: Jorge Fernandez <jfernandezcolli@gmail.com>
+Date:   Thu Jan 18 09:14:01 2018 -0600
+
+    Se agrega la tabla de profesiones.
+
+[33mcommit 445deb1df9e50f799dbc8f73ae2d801a5ec37b29[m
+Author: Jorge Fernandez <jfernandezcolli@gmail.com>
+Date:   Fri Jan 12 22:34:10 2018 -0600
+
+    Se agrega el campo de profesion a la tabla.
+
+[33mcommit 643cc8daec3ddc3e78db71c53f1695b470c171d8[m
+Author: Jorge Fernandez <jfernandezcolli@gmail.com>
+Date:   Wed Jan 3 23:04:58 2018 -0600
+
+    Se agrega la prueba para verificar la lista de usuarios vacia.
+
+[33mcommit 23a607786d0b310df5c2e42854349fa1e8ad5880[m
+Author: Jorge Fernandez <jfernandezcolli@gmail.com>
+Date:   Wed Jan 3 22:59:12 2018 -0600
+
+    Se agrega el mensaje de que no hay usuarios registrados.
+
+[33mcommit 16791c85f5870c013643de933781bf14f23c39d7[m
+Author: Jorge Fernandez <jfernandezcolli@gmail.com>
+Date:   Wed Jan 3 22:54:47 2018 -0600
+
+    Se corrige el error en los archivos usercontroller y usuarios.blade.
+
+[33mcommit fc8b17337a1e06273264a076b2cece2911853c5d[m
+Author: Jorge Fernandez <jfernandezcolli@gmail.com>
+Date:   Tue Jan 2 21:39:21 2018 -0600
+
+    Se agrega la condicional en la plantilla principal para imprimir los usuarios.
+
+[33mcommit f3bae2290b200c5ced37dcf1a5e1f85b75812ffd[m
+Author: Jorge Fernandez <jfernandezcolli@gmail.com>
+Date:   Tue Jan 2 21:00:04 2018 -0600
+
+    Se cambia la extencion del archivo a blade.php.
+
+[33mcommit cb3b0a887993e937fe9247c172cfaf38e36b1be6[m
+Author: Jorge Fernandez <jfernandezcolli@gmail.com>
+Date:   Tue Jan 2 20:54:32 2018 -0600
+
+    Se agrega codigo para la plantilla de blade.
+
+[33mcommit 3bb559b74a1db8288f42760309570cc9dbd81d06[m
+Author: Jorge Fernandez <jfernandezcolli@gmail.com>
+Date:   Fri Dec 29 22:49:41 2017 -0600
+
+    Se agrega el nuevo titulo de la plantilla.
+
+[33mcommit 6db9b25167a5d54a5511bf5e71150039535ef3e2[m
+Author: Jorge Fernandez <jfernandezcolli@gmail.com>
+Date:   Fri Dec 29 22:48:18 2017 -0600
+
+    Se agrega el Helper e en las secciones donde se imprimen los usuarios apara evitar que se ejecute codigo malintencionado.
+
+[33mcommit e6516d54831aecc77145906e7c473c52952b39b7[m
+Author: Jorge Fernandez <jfernandezcolli@gmail.com>
+Date:   Fri Dec 29 22:47:10 2017 -0600
+
+    Se soluciona el error al mandar el titulo de la plantilla, se ale agrega la coma en la seccion de los arrelglos.
+
+[33mcommit f2f4c81d419b521ef3cc3807770efdb1132b69cb[m
+Author: Jorge Fernandez <jfernandezcolli@gmail.com>
+Date:   Fri Dec 29 22:38:03 2017 -0600
+
+    Se modifica la prueba para verificar si se estan pasando los datos de los usuarios.
+
+[33mcommit 6812c77ad040e76395d047559c8ca3e5266a9c9d[m
+Author: Jorge Fernandez <jfernandezcolli@gmail.com>
+Date:   Fri Dec 29 22:30:55 2017 -0600
+
+    Se agrega la plantilla para visualizar los usuarios con un ciclo foreach
+
+[33mcommit 908645d886c049d1df8947600b1949e4e6923bf7[m
+Author: Jorge Fernandez <jfernandezcolli@gmail.com>
+Date:   Fri Dec 29 22:26:49 2017 -0600
+
+    Se modifica el metodo index para mostrar un arreglo estatico y mandarlos a la plantilla.
+
+[33mcommit f57625a50c5a301e73b5e0894447894943ea476a[m
+Author: Jorge Fernandez <jfernandezcolli@gmail.com>
+Date:   Thu Dec 28 23:00:12 2017 -0600
+
+    Se agrega la vissta de la lista de usuarios.
+
+[33mcommit a603d251609f00f3968652636b0dffa9ad95b705[m
+Author: Jorge Fernandez <jfernandezcolli@gmail.com>
+Date:   Fri Dec 22 23:49:27 2017 -0600
+
+    Se crea el controlador de los usuarios, se separa el codigo del modulo de rutas.
+
+[33mcommit b0a3c6fb0cec60aad2e01109faafbe7ce2d5607a[m
+Author: Jorge Fernandez <jfernandezcolli@gmail.com>
+Date:   Fri Dec 22 23:48:07 2017 -0600
+
+    Se crea el controlador para dar la bienvenida.
+
+[33mcommit 6459f5c913fae957983db24a789e2b8a91ea4b9c[m
+Author: Jorge Fernandez <jfernandezcolli@gmail.com>
+Date:   Fri Dec 22 23:47:10 2017 -0600
+
+    Se modifica el archivo para eliminar el error al momento de compilar la prueba unitaria.
+
+[33mcommit ed27232195ae59c6c89a6f261b2156b879383899[m
+Author: Jorge Fernandez <jfernandezcolli@gmail.com>
+Date:   Fri Dec 22 23:45:40 2017 -0600
+
+    Se ejecuta el metodo de refactrizacion, dejando mas limpio el archivo de las rutas.
+
+[33mcommit 703378074f88e8d9927546ebf32522537fd74f3c[m
+Author: Jorge Fernandez <jfernandezcolli@gmail.com>
+Date:   Sun Dec 10 21:14:17 2017 -0600
+
+    Se agrega la funcion para verificar que se retornen el mensaje y el valor 200 en la ryta de Uusuario.
+
+[33mcommit df36650df38a9852f1cb70aa5fe6ca88d546e853[m
+Author: Jorge Fernandez <jfernandezcolli@gmail.com>
+Date:   Sun Dec 10 21:12:04 2017 -0600
+
+    Se agrega las funciones para verificar si se reciven los mensajes y el codigo 200.
+
+[33mcommit e9b89409e05ffbbb872c6169671ed08e7a82e047[m
+Author: Jorge Fernandez <jfernandezcolli@gmail.com>
+Date:   Sun Dec 10 21:10:10 2017 -0600
+
+    Se agrega en la funcion la opcion para colocar la primera legra en mayuscula.
+
+[33mcommit 2fdaff0b0add40c137de76707471a92a20120c43[m
+Author: Jorge Fernandez <jfernandezcolli@gmail.com>
+Date:   Sun Dec 10 16:24:24 2017 -0600
+
+    Se agregan la sorimeras rutas; home, usuarios, detalles de usuarios, nuevos y perfil con nombre.
