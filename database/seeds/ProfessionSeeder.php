@@ -12,11 +12,7 @@ class ProfessionSeeder extends Seeder
      */
     public function run()
     {
-        //
-        DB::statement('SET FOREIGN_KEY_CHECKS = 0;');
-
-        DB::table('professions')->truncate();
-
+        //Se ingresan los primeras profesiones.
 
         DB::table('professions')->insert([
         	'title'=>'Desarrollador - BackEnd',
